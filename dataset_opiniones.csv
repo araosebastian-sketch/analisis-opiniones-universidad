@@ -1,0 +1,61 @@
+id,area,comentario,polaridad_referencia
+1,Docencia,"El profesor de Inteligencia Artificial explica con mucha claridad y ejemplos prácticos.",Positiva
+2,Plataforma Virtual,"La plataforma SAIA se cae cada vez que hay entrega de exámenes finales, es frustrante.",Negativa
+3,Infraestructura,"Los aires acondicionados del bloque B no funcionan desde hace dos semanas.",Negativa
+4,Atención Administrativa,"El trámite de constancia de estudios fue rápido y el personal muy amable.",Positiva
+5,Docencia,"Las clases son puntuales y se cumple el cronograma establecido en el plan de evaluación.",Neutra
+6,Plataforma Virtual,"Falta mejorar la velocidad de carga de los archivos PDF en el aula virtual.",Negativa
+7,Biblioteca,"Excelente colección digital y acceso rápido a bases de datos científicas.",Positiva
+8,Docencia,"No entiendo nada en las clases de cálculo, el docente va demasiado rápido y no responde dudas.",Negativa
+9,Infraestructura,"El laboratorio de computación tiene equipos actualizados y buen acceso a internet.",Positiva
+10,Atención Administrativa,"Nadie contesta los correos en control de estudios, llevo 10 días esperando respuesta.",Negativa
+11,Docencia,"La asignatura tiene buen contenido pero las evaluaciones son excesivamente largas.",Neutra
+12,Plataforma Virtual,"Me gusta que las clases grabadas queden disponibles en el enlace http://aula.edu.ve/rec",Positiva
+13,Infraestructura,"Los baños del primer piso necesitan mantenimiento urgente y mejor limpieza.",Negativa
+14,Docencia,"Excelente dominio del tema por parte del facilitador, motiva mucho a investigar.",Positiva
+15,Atención Administrativa,"El horario de atención en caja es de 8:00 am a 3:00 pm de lunes a viernes.",Neutra
+16,Plataforma Virtual,"Tuve problemas para subir mi tarea en PDF porque el límite de tamaño es muy pequeño.",Negativa
+17,Biblioteca,"Las salas de estudio son silenciosas y cómodas para trabajar en equipo.",Positiva
+18,Docencia,"El profesor sube las diapositivas un día antes de cada sesión.",Neutra
+19,Infraestructura,"La conexión WiFi en la cafetería y áreas comunes es pésima e inestable.",Negativa
+20,Docencia,"No es que sea un mal profesor, pero le falta organizar mejor el tiempo de las prácticas.",Neutra
+21,Atención Administrativa,"Pésima atención en la taquilla de inscripciones, hacen perder mucho tiempo.",Negativa
+22,Plataforma Virtual,"La interfaz del campus virtual es intuitiva y fácil de usar desde el teléfono.",Positiva
+23,Docencia,"Las retroalimentaciones de los proyectos llegan a tiempo y ayudan a mejorar.",Positiva
+24,Infraestructura,"El estacionamiento es seguro y cuenta con buena iluminación nocturna.",Positiva
+25,Docencia,"Demasiada teoría y poca práctica en los laboratorios de programación.",Negativa
+26,Atención Administrativa,"El proceso de inscripción en línea funcionó sin errores este semestre.",Positiva
+27,Plataforma Virtual,"A veces las notificaciones de las tareas llegan con retraso al correo institucional.",Neutra
+28,Infraestructura,"Faltan enchufes en los salones para conectar las laptops durante las clases.",Negativa
+29,Docencia,"Muy buen acompañamiento durante el desarrollo del trabajo de investigación.",Positiva
+30,Biblioteca,"El horario de la biblioteca debería extenderse hasta las 8 de la noche.",Neutra
+31,Plataforma Virtual,"Error 404 frecuente al intentar descargar las guías de estudio de la unidad 3.",Negativa
+32,Docencia,"El docente fomenta el pensamiento crítico y el debate en cada encuentro.",Positiva
+33,Infraestructura,"Las sillas de las aulas del tercer piso están deterioradas e incómodas.",Negativa
+34,Atención Administrativa,"Me atendieron sin demoras para resolver el problema con mi carga académica.",Positiva
+35,Docencia,"El material de lectura está desactualizado, tiene referencias de hace 15 años.",Negativa
+36,Plataforma Virtual,"El foro de dudas funciona correctamente para comunicarse con los compañeros.",Neutra
+37,Infraestructura,"Buena climatización y limpieza en el auditorio principal durante las conferencias.",Positiva
+38,Docencia,"Nunca entrega las notas a tiempo, llegamos al final del corte sin saber nuestro promedio.",Negativa
+39,Atención Administrativa,"Solicité una revisión de nota y el procedimiento siguió el reglamento.",Neutra
+40,Plataforma Virtual,"¡Excelente actualización del sistema! Ahora es mucho más rápido descargar las calificaciones.",Positiva
+41,Infraestructura,"Hay mucho ruido externo cerca de las aulas de planta baja que interrumpe las clases.",Negativa
+42,Docencia,"Clases dinámicas, participativas y con casos de estudio reales de la industria.",Positiva
+43,Atención Administrativa,"Te envían de una oficina a otra y nadie da solución definitiva al problema.",Negativa
+44,Biblioteca,"El catálogo en línea permite reservar libros físicos sin necesidad de ir presencialmente.",Positiva
+45,Docencia,"El contenido programático se cubrió en un 90% durante el lapso académico.",Neutra
+46,Plataforma Virtual,"La plataforma estuvo en mantenimiento el domingo por la madrugada.",Neutra
+47,Infraestructura,"La cafetería tiene precios muy altos y poca variedad de alimentos saludables.",Negativa
+48,Docencia,"Gran calidad humana y profesional de los profesores de la facultad de ingeniería.",Positiva
+49,Atención Administrativa,"Falta información clara sobre los requisitos para el servicio comunitario.",Negativa
+50,Plataforma Virtual,"No pude presentar el cuestionario porque la página se quedó cargando infinitamente.",Negativa
+51,Docencia,"El profesor utiliza herramientas de inteligencia artificial para enriquecer las prácticas.",Positiva
+52,Infraestructura,"El proyector del aula 12 no tiene buena resolución y apenas se ve el código.",Negativa
+53,Atención Administrativa,"La entrega de carnets estudiantiles se realizó en la fecha anunciada.",Neutra
+54,Docencia,"Aunque el tema es complejo, el docente tiene paciencia para explicar varias veces.",Positiva
+55,Plataforma Virtual,"Sería útil integrar recordatorios automáticos de entregas en la aplicación móvil.",Neutra
+56,Infraestructura,"Excelente mantenimiento de las áreas verdes y espacios recreativos del campus.",Positiva
+57,Docencia,"Las instrucciones de la actividad evaluativa eran confusas y contradictorias.",Negativa
+58,Atención Administrativa,"Muy buena disposición del coordinador de carrera para orientar a los nuevos ingresos.",Positiva
+59,Plataforma Virtual,"El acceso mediante credenciales institucionales funciona sin inconvenientes.",Neutra
+60,Infraestructura,"Sin internet en los laboratorios es imposible realizar las prácticas de redes.",Negativa

@@ -1,0 +1,64 @@
+=== 1. EXPLORACIÓN INICIAL ===
+Total registros: 60 | Columnas: ['id', 'area', 'comentario', 'polaridad_referencia']
+Datos vacíos por columna:
+ id                      0
+area                    0
+comentario              0
+polaridad_referencia    0
+dtype: int64
+
+Comentarios por área:
+ area
+Docencia                   19
+Plataforma Virtual         13
+Infraestructura            13
+Atención Administrativa    11
+Biblioteca                  4
+Name: count, dtype: int64
+
+Comentarios por polaridad de referencia:
+ polaridad_referencia
+Positiva    23
+Negativa    23
+Neutra      14
+Name: count, dtype: int64
+
+Cruce Área vs. Polaridad:
+ polaridad_referencia     Negativa  Neutra  Positiva  All
+area                                                    
+Atención Administrativa         4       3         4   11
+Biblioteca                      0       1         3    4
+Docencia                        5       5         9   19
+Infraestructura                 9       0         4   13
+Plataforma Virtual              5       5         3   13
+All                            23      14        23   60
+
+Promedio de palabras por comentario: 12.37
+
+=== 2. COMPARACIÓN DE 5 COMENTARIOS ===
+ id                                                                               comentario                                                              texto_limpio
+  1  El profesor de Inteligencia Artificial explica con mucha claridad y ejemplos prácticos. profesor inteligencia artificial explicar mucha claridad ejemplo práctico
+  2   La plataforma SAIA se cae cada vez que hay entrega de exámenes finales, es frustrante.                     plataforma saia caer entregar examen final frustrante
+ 12  Me gusta que las clases grabadas queden disponibles en el enlace http://aula.edu.ve/rec                               gusta clase grabar quedar disponible enlace
+ 20 No es que sea un mal profesor, pero le falta organizar mejor el tiempo de las prácticas.                        sea profesor falta organizar mejor tiempo práctica
+ 50      No pude presentar el cuestionario porque la página se quedó cargando infinitamente.         poder presentar cuestionario porque página quedar cargar infinito
+
+=== 4. ANÁLISIS DE SENTIMIENTO ===
+Exactitud: 76.67% (46/60)
+
+Casos con discrepancia:
+ id                    area polaridad_referencia polaridad_predicha                                                                                     comentario
+  3         Infraestructura             Negativa           Positiva                     Los aires acondicionados del bloque B no funcionan desde hace dos semanas.
+  5                Docencia               Neutra           Positiva       Las clases son puntuales y se cumple el cronograma establecido en el plan de evaluación.
+  6      Plataforma Virtual             Negativa             Neutra                    Falta mejorar la velocidad de carga de los archivos PDF en el aula virtual.
+  8                Docencia             Negativa           Positiva No entiendo nada en las clases de cálculo, el docente va demasiado rápido y no responde dudas.
+ 10 Atención Administrativa             Negativa           Positiva          Nadie contesta los correos en control de estudios, llevo 10 días esperando respuesta.
+ 11                Docencia               Neutra           Negativa             La asignatura tiene buen contenido pero las evaluaciones son excesivamente largas.
+ 20                Docencia               Neutra           Negativa       No es que sea un mal profesor, pero le falta organizar mejor el tiempo de las prácticas.
+ 26 Atención Administrativa             Positiva             Neutra                         El proceso de inscripción en línea funcionó sin errores este semestre.
+ 27      Plataforma Virtual               Neutra           Negativa           A veces las notificaciones de las tareas llegan con retraso al correo institucional.
+ 36      Plataforma Virtual               Neutra           Positiva                   El foro de dudas funciona correctamente para comunicarse con los compañeros.
+ 38                Docencia             Negativa             Neutra      Nunca entrega las notas a tiempo, llegamos al final del corte sin saber nuestro promedio.
+ 43 Atención Administrativa             Negativa             Neutra                    Te envían de una oficina a otra y nadie da solución definitiva al problema.
+ 46      Plataforma Virtual               Neutra           Negativa                             La plataforma estuvo en mantenimiento el domingo por la madrugada.
+ 56         Infraestructura             Positiva             Neutra                 Excelente mantenimiento de las áreas verdes y espacios recreativos del campus.
